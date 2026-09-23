@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "id": "model-rollout-card",
+  "name": "Model Rollout Card / 模型上线卡",
+  "description": "Turns a supplied AI model rollout plan into a bilingual launch card with access, cost, validation, and rollback evidence.",
+  "source": { "format": "ipollowork-extension-manifest", "origin": "local", "trusted": false },
+  "package": {
+    "version": "1.0.0",
+    "publisher": { "id": "sykdhqk", "name": "sykdhqk" },
+    "updateId": "sykdhqk/model-rollout-card",
+    "compatibility": { "ipollowork": ">=0.50.12" }
+  },
+  "resources": [{
+    "type": "skill", "id": "model-rollout-card", "label": "Model Rollout Card / 模型上线卡",
+    "description": "Create an evidence-led model rollout card from supplied material.",
+    "path": "skills/model-rollout-card", "required": true
+  }]
+}
